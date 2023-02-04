@@ -1,0 +1,19 @@
+{
+  "name": "mastodon-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "scream": "node src/main.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "megalodon": "^5.1.1"
+  },
+  "devDependencies": {
+    "prettier": "^2.8.3"
+  },
+  "prettier": {}
+}
