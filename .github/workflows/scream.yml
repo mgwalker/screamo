@@ -3,7 +3,7 @@ name: SCREAM!!!
 on:
  schedule:
    # every eight hours
-   - cron: '0 18 * * 1-5'
+   - cron: '5 0/8 * * 1-5'
 
 jobs:
   scream:
