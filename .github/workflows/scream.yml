@@ -3,7 +3,7 @@ name: SCREAM!!!
 on:
  schedule:
    # twice a day; 0400 and 1600 UTC
-   - cron: '0 4/12 * * 1-5'
+   - cron: '0 16 * * 2'
 
 jobs:
   scream:
