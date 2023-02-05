@@ -2,8 +2,8 @@ name: SCREAM!!!
 
 on:
  schedule:
-   # every eight hours
-   - cron: '5 0/8 * * 1-5'
+   # twice a day; 0400 and 1600 UTC
+   - cron: '0 4/12 * * 1-5'
 
 jobs:
   scream:
